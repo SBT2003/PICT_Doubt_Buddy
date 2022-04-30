@@ -2,6 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home_page.css'
 import Navbar from './Navbar.js'
+import i1 from './Images/icon1.png'
+import i2 from './Images/icon2.png'
+import i3 from './Images/icon3.png'
+import i4 from './Images/icon4.png'
+import i5 from './Images/pictTeam.jpeg'
+
+import i6 from './Images/pict_logo.jpeg'
+import i7 from './Images/renuka.jpeg'
+import i8 from './Images/ruturaj.jpeg'
+import i9 from './Images/shivakumar.jpg'
+import i10 from './Images/shrushti.jpg'
+import i11 from './Images/Sir.jpeg'
 export default function Home_page() {
   return (
     <body>
@@ -25,23 +37,23 @@ export default function Home_page() {
             <p>What Our Team Says</p>
           </div>
           <div className="member-card">
-            <img src="images/hello.jpg" width={700} />
+          <img src={i5} width={600} />
             <p>
               Pune Institute of Computer Technology, is a private unaided engineering college located in Dhankawadi, Pune, India. Established by the Society for Computer Technology and Research, SCTR in 1983. It offers degrees in Information Technology, Computer Engineering and Electronics and Telecommunication Engineering. 
             </p>
             <h2>Pune Institute of Computer Technology</h2>
-            <img src="./Images/icon1.png" width={100} />
-            <img src="./Images/icon2.png" width={100} />
-            <img src="./Images/icon3.png" width={100} />
-            <img src="./Images/icon4.png" width={100} />
+            <img src={i1} width={100} />
+            <img src={i2} width={100} />
+            <img src={i3} width={100} />
+            <img src={i4} width={100} />
           </div>
           <div className="m-images">
-            <img src="images/root.jpg" />
-            <img src="images/ren.jpg" />
-            <img src="images/pic.jpg" />
-            <img src="images/pt.jpg" />
-            <img src="images/shr.jpg" />
-            <img src="images/shiv.jpg" />
+            <img src={i6} />
+            <img src={i7} />
+            <img src={i8} />
+            <img src={i9} />
+            <img src={i10} />
+            <img src={i11} />
           </div>
         </section>
         <footer>

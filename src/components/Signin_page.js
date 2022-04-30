@@ -11,7 +11,7 @@ export default function Signin_page() {
         <div className="shape"></div>
     </div>
     <form>
-        <h3>Sign In</h3>
+        <h3>Sign Up</h3>
 
         {/* <label for="firstname">First Name</label>
         <input type="text" placeholder="First Name" id="firstname"></input> */}
@@ -28,7 +28,7 @@ export default function Signin_page() {
         <label for="password">Confirm Password</label>
         <input type="password" placeholder="Password" id="confirm-password"></input>
 
-        <button>Sign In</button>
+        <button>Sign Up</button>
         <div className="social">
           <div className="go"><i className="fab fa-google" style={{color:"	#0F9D58"}}></i>  Google</div>
           <div className="fb"><i className="fab fa-facebook" style={{color:"#4267B2"}}></i>  Facebook</div>

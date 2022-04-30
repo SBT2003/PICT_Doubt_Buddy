@@ -31,7 +31,7 @@ export default function Login_page() {
         <button id='login-btn' className='log_in_btn'>Log In</button>
         <a className="msg">Don't have an account ? </a> 
         <a className='link'>
-        <Link to="/signin">SIGN IN</Link>
+        <Link to="/signin">SIGN UP</Link>
         </a>
       
         <div className="social">
